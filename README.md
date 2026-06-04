@@ -1,4 +1,4 @@
-# OF-SoS 🏋️‍♂️🔥
+# OTF-SoS 🏋️‍♂️🔥
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![React](https://img.shields.io/badge/React-19.0-blue)
