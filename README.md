@@ -6,7 +6,7 @@
 
 A premium, mobile-friendly web application designed to track **Orangetheory's Season of Strength** foundation lifts. Built with React and Vite, the app offers a sleek dark-mode aesthetic with glassmorphism effects and dynamic micro-animations.
 
-[🚀 **View Live Demo**](https://m0k0ut.github.io/Test-ADK-project/)
+[🚀 **View Live Demo**](https://m0k0ut.github.io/OTF-SoS/)
 
 ## ✨ Features
 
@@ -36,8 +36,8 @@ To run this project locally on your machine, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/m0k0ut/Test-ADK-project.git
-   cd Test-ADK-project
+   git clone https://github.com/m0k0ut/OTF-SoS.git
+   cd OTF-SoS
    ```
 
 2. Install the dependencies:

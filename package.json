@@ -6,9 +6,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/m0k0ut/Test-ADK-project.git"
+    "url": "git+https://github.com/m0k0ut/OTF-SoS.git"
   },
-  "homepage": "https://m0k0ut.github.io/Test-ADK-project/",
+  "homepage": "https://m0k0ut.github.io/OTF-SoS/",
   "type": "module",
   "scripts": {
     "dev": "vite",
