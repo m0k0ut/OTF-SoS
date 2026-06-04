@@ -21,19 +21,18 @@ function App() {
   const [selectedLift, setSelectedLift] = useState(LIFTS[0].id);
   const [weight, setWeight] = useState('');
   const [reps, setReps] = useState('');
-  const [logs, setLogs] = useState([]);
-
-  // Load from localStorage on mount
-  useEffect(() => {
+  const [logs, setLogs] = useState(() => {
     const savedLogs = localStorage.getItem('foundation-lifts-logs');
     if (savedLogs) {
       try {
-        setLogs(JSON.parse(savedLogs));
+        return JSON.parse(savedLogs);
       } catch (e) {
         console.error("Failed to parse logs from local storage", e);
+        return [];
       }
     }
-  }, []);
+    return [];
+  });
 
   // Save to localStorage when logs change
   useEffect(() => {
@@ -67,8 +66,8 @@ function App() {
   return (
     <div className="app-container">
       <header className="header">
-        <h1>Foundation Lifts</h1>
-        <p>Track your Season of Strength</p>
+        <h1>Orangetheory</h1>
+        <p>Season of Strength: Foundation Lifts</p>
       </header>
 
       <nav className="lifts-nav">
