@@ -1,16 +1,67 @@
-# React + Vite
+# OF-SoS 🏋️‍♂️🔥
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![React](https://img.shields.io/badge/React-19.0-blue)
+![Vite](https://img.shields.io/badge/Vite-8.0-purple)
 
-Currently, two official plugins are available:
+A premium, mobile-friendly web application designed to track **Orangetheory's Season of Strength** foundation lifts. Built with React and Vite, the app offers a sleek dark-mode aesthetic with glassmorphism effects and dynamic micro-animations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[🚀 **View Live Demo**](https://m0k0ut.github.io/Test-ADK-project/)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Foundation Lifts Tracking**: Log your Weight and Reps for Deadlifts, Chest Presses, Single-Arm Low Rows, and Squats.
+- **Local Storage Persistence**: Your lifting history is saved locally in your browser, meaning your data stays private and persists across sessions without needing a database.
+- **Responsive Design**: Carefully optimized to look fantastic on both desktop monitors and mobile devices.
+- **Premium Aesthetics**: Features a modern dark-mode design system with vibrant orange accents to match the Orangetheory brand style.
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Framework**: React 19
+- **Build Tool**: Vite
+- **Styling**: Vanilla CSS (CSS Variables, Grid/Flexbox, Glassmorphism)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Deployment**: GitHub Pages
+
+## 💻 Local Development
+
+To run this project locally on your machine, follow these steps:
+
+### Prerequisites
+
+- Node.js (v18 or higher recommended)
+- npm (Node Package Manager)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/m0k0ut/Test-ADK-project.git
+   cd Test-ADK-project
+   ```
+
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to `http://localhost:5173/`.
+
+## 🚢 Deployment
+
+This project is configured to automatically deploy to GitHub Pages. To publish a new version:
+
+1. Build the production application and push to the `gh-pages` branch:
+   ```bash
+   npm run deploy
+   ```
+2. Verify that GitHub Pages is pointing to the `gh-pages` branch in your repository settings.
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE). Feel free to fork, modify, and use it for your own personal fitness tracking!
