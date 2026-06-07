@@ -15,6 +15,14 @@ A premium, mobile-friendly web application designed to track **Orangetheory's Se
 - **Responsive Design**: Carefully optimized to look fantastic on both desktop monitors and mobile devices.
 - **Premium Aesthetics**: Features a modern dark-mode design system with vibrant orange accents to match the Orangetheory brand style.
 
+## 📲 How to Use
+
+1. **Pick a lift** from the top navigation — Deadlift, Chest Press, Single-Arm Low Row, or Squat.
+2. **Log a set** by entering your weight and reps, then tapping **Add Log**.
+3. **Review your history** for the selected lift, sorted newest-first, and remove any entry with the trash icon.
+
+> 💾 All entries are stored in your browser's `localStorage`. Your data stays private to the device it was logged on — it is never uploaded, but it also won't sync across devices or browsers, and clearing your browser data will remove it.
+
 ## 🛠 Tech Stack
 
 - **Framework**: React 19
